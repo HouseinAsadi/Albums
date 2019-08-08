@@ -2,8 +2,7 @@ import React, {Component} from 'react';
 import {View, Text} from 'react-native';
 import Axios from 'axios';
 import AlbumDetail from './AlbumDetail';
-import console = require('console');
-//import console = require('console');
+
 
 class AlbumList extends Component {
     state = {albums : []};
